@@ -24,7 +24,6 @@ const Home = () => {
     const [allTypeVechiles,setAllTypeVechiles]=useState([]);
     useEffect(()=>{setAllTypeVechiles(fakeData)},[]);
     const classes = useStyles();
-    console.log(allTypeVechiles);
     return (
         <div style={backgroundImage}>
         <Header></Header>

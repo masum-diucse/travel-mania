@@ -6,7 +6,6 @@ import logo from '../../resources/images/logo.png';
 import './Header.css';
 const Header = () => {
     const [loggedInUser,setLoggedInUser]=useContext(UserContext);
-    console.log({loggedInUser});
     return (
         <div>
             <Navbar  variant="light">
