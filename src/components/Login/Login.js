@@ -55,16 +55,6 @@ const Login = () => {
             <Header></Header>
             <div>
             <Card style={{ width: '30rem'}} >
-                {/* <form onSubmit={handleSubmit(onSubmit)}>
-                    <label>Pick From</label>
-                    <input name="pickFrom" ref={register}/> <br/>
-                    {errors.pickFrom && <span>This field is required</span>}
-                    <label>Pick To</label>
-                    <input name="pickTo" ref={register({ required: true })} />
-                    {errors.pickTo && <span>This field is required</span>}
-                    <br/>
-                    <Button variant="danger" type="submit">Submit</Button> 
-                </form> */}
                 <Button onClick={handleGoogleSignIn} variant="success">Google</Button> 
                 <Button onClick={handleFacebookSignIn} variant="primary">Facebook</Button> 
             </Card>

@@ -28,10 +28,19 @@ const VechicleDetails = () => {
             <Card style={{ width: '30rem'}} >
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <label>Pick From</label>
-                    <input name="pickFrom" ref={register}/> <br/>
+                    <input name="pickFrom" ref={register({ required: true })}/> 
                     {errors.pickFrom && <span>This field is required</span>}
+                    <br/>
                     <label>Pick To</label>
                     <input name="pickTo" ref={register({ required: true })} />
+                    {errors.pickTo && <span>This field is required</span>}
+                    <br/>
+                    <label for="Starting">Starting Date:</label>
+                    <input type="date" id="startingDate" name="starting" ref={register({ required: true })}></input>
+                    {errors.pickTo && <span>This field is required</span>}
+                    <br/>
+                    <label for="Ending">Ending Date:</label>
+                    <input type="date" id="endingDate" name="ending" ref={register({ required: true })}></input>
                     {errors.pickTo && <span>This field is required</span>}
                     <br/>
                     <Button variant="danger" type="submit">Search</Button> 
