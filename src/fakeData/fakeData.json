@@ -1,0 +1,25 @@
+[{
+    "vehicleType": "BIKE",
+    "vehicleImage":"https://i.imgur.com/WARdYwv.png",
+    "details": [{"person":2,"price":40},{"person":1,"price":50}
+    ]
+},
+{
+    "vehicleType": "BUS",
+    "vehicleImage":"https://i.imgur.com/rMhmDs1.png",
+    "details": [{"person":10,"price":100},{"person":15,"price":130},{"person":20,"price":200}
+    ]
+},
+{
+    "vehicleType": "CAR",
+    "vehicleImage":"https://i.imgur.com/XoaU7vV.png",
+    "details": [{"person":5,"price":80},{"person":2,"price":100},{"person":3,"price":60}
+    ]
+},
+{
+    "vehicleType": "TRAIN",
+    "vehicleImage":"https://i.imgur.com/JieDk6p.png",
+    "details": [{"person":15,"price":100},{"person":10,"price":200},{"person":20,"price":250}
+    ]
+}
+]
